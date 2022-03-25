@@ -7,6 +7,7 @@ const project = {
         return "This is my project";
     },
 }
+
 // randomProperty أنشئ دالة
 
 function randomProperty(obj) {
@@ -14,8 +15,8 @@ function randomProperty(obj) {
 
     const random = Math.floor(Math.random() * keys.length);
 
-    console.log(keys[random]);
-    console.log(obj[`${keys[random]}`])
+    console.log(keys[`${random}`]);
+    console.log(obj[`${keys[`${random}`]}`])
 }
 
 
